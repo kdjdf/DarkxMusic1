@@ -36,29 +36,24 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/30868ddf51d5599e8c777.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-✨ ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ᴀɴᴅ ʟᴀɢ ɪssᴜᴇ ᴡɪᴛʜ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ...
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa) ...
-━━━━━━━━━━━━━━━━━━━━**""",
+💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
+𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝗧𝗵𝗲 𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝘂𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/The_Superiour_Network)
+┣★ ⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡ : [𝗪𝗼𝗿𝗹𝗱 𝗙𝗿𝗶𝗲𝗻𝗱𝗦𝗵𝗶𝗽 𝗭𝗼𝗻𝗲](https://t.me/World_FriendShip_Zone)
+┣★ ⚡𝗢𝘄𝗻𝗲𝗿⚡   : [𝗦𝘂𝗺𝗶𝘁 𝗬𝗮𝗱𝗮𝘃](https://t.me/Simple_Mundaa)
+┗━━━━━━━━━━━━━━━━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton("♦️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ♦️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-        ],
-        [
-            InlineKeyboardButton("📝 ᴄᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"),
-            InlineKeyboardButton("⚕️ ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Simple_Mundaa")
-        ],
-        [
-            InlineKeyboardButton("📛 sᴜᴘᴘᴏʀᴛ", url="https://t.me/SECRET_SOCIETY012"),
-            InlineKeyboardButton("🎑 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DEMON_CREATORS")
-        ],
-        [
-            InlineKeyboardButton("💠 ʏᴏᴜᴛᴜʙᴇ 💠", url="https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw")
-        ]
-    ]
-)
+            [
+                [
+                    InlineKeyboardButton(
+                        "⚡ ❰ 𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽 ❱ ⚡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                ]
+                
+           ]
+        ),
+    )
     
     
 @Client.on_message(commandpro(["/start", "/alive", "Sumit"]) & filters.group & ~filters.edited)
@@ -70,7 +65,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/World_FriendShip_Zone")
+                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/World_FriendShip_Zone")
                 ]
             ]
         ),
@@ -86,7 +81,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Uᴘᴅᴀᴛᴇs", url=f"https://t.me/Demon_Creators")
+                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/The_Superiour_Network")
                 ]
             ]
         ),
